@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardiologia Comportamental - Gamificação</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="Cocogoose\ Pro-trial.ttf" as="font" type="font/ttf" crossorigin>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="loading-screen">
+    <img src="LOGOTIPO%20APROVADO%20MARCA%20D%20AGUA%208.png" alt="Logo Dr. Leandro">
+    <p>Carregando seu plano de vida saudável…</p>
+  </div>
+
+  <main class="quiz-container hidden">
+    <section class="question-block">
+      <h2 class="question">🍎 Como está sua alimentação no dia a dia?</h2>
+      <ul class="answers">
+        <li class="answer" data-score="3">🥦 Faço escolhas equilibradas e variadas.</li>
+        <li class="answer" data-score="2">🍞 Tento manter o equilíbrio, mas às vezes escorrego.</li>
+        <li class="answer" data-score="1">🍔 Como o que dá na telha, sem pensar muito.</li>
+      </ul>
+    </section>
+    <button id="next-button">Próxima</button>
+  </main>
+
+  <section class="result-screen hidden">
+    <h2>🧠 Resultado do seu estilo de vida</h2>
+    <p id="result-text"></p>
+  </section>
+</body>
+</html>
